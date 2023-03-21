@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utilidades
+F8F9D7 = fondo
+typografia = font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Caveat', cursive;
+*/
+
+
+header{
+    background-color: #F8F9D7;
+    color: black;
+    
+}
+.navbar{
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: #F8F9D7;
+}
+
+.section-principal{
+    background-image:url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg) ;
+    width: 100%;
+    height: 1000px;
+    background-position-y: 63%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    font-size: 90px;
+    color: #F0A500;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: 'Caveat', cursive;
+}
+
+h2{
+    font-size: 45px;
+    color: #F0A500;
+    text-align:left;
+    margin-bottom: 100px;
+    font-family: 'Caveat', cursive;
+}
+
+.section-principal div p{
+    font-size: 20px;
+    color: #F0A500;
+    text-align:left;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+.section-cocina{
+    background-color: white;
+    background-image:url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg) ;
+    width: 100%;
+    height: 1000px;
+    background-position-y: 63%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;   
+}
+.section-cocina h1{
+    font-size: 48px;
+    color: #F0A500;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+.footer{
+    text-align: center;
+}
