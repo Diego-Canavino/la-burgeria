@@ -13,16 +13,37 @@ font-family: 'Caveat', cursive;
 header{
     background-color: #F8F9D7;
     color: black;
-    
 }
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .navbar{
+    display: flex;
     list-style: none;
+    gap: 200px;
+    padding-top: 60px;
 }
 
 .navbar li a{
     text-decoration: none;
-    color: black;
+    color: #F0A500;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin-top: 70px;
+
+}
+
 
 .main{
     background-color: #F8F9D7;
@@ -81,6 +102,3 @@ h2{
     font-family: 'Caveat', cursive;
 }
 
-.footer{
-    text-align: center;
-}
