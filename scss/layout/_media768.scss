@@ -1,0 +1,57 @@
+@media (max-width:768px) {
+    .navbar {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .logos {
+        display: none;
+    }
+
+    .section-principal h1 {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-size: 60px;
+        margin-top: 73px;
+        margin-left: 40px;
+    }
+
+    .section-principal h2 {
+        display: flex;
+        text-align: left;
+        gap: 20px;
+        font-size: 30px;
+        margin-top: 100px;
+        margin-left: -250px;
+    }
+
+    .grid-texto {
+        display: flex;
+        text-align: left;
+        gap: 2px;
+        font-size: 20px;
+        margin-top: 170px;
+        margin-left: 20px;
+    }
+
+
+
+    .imagen7,
+    .imagen8,
+    .imagen9 {
+        display: none;
+    }
+
+    .video-cocina {
+        width: 700px;
+    }
+
+    .donde-estamos iframe{
+        height: 400px;
+        width: 700px;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,82 @@
+.main {
+    background-color: #F8F9D7;
+}
+
+.section-principal{
+    display: flex;
+    background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+    width: 100%;
+    height: 900px;
+    background-position-y: 63%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+h1{
+    font-size: 90px;
+    color: #F0A500;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: 'Caveat', cursive;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+h2{
+    font-size: 38px;
+    color: #F0A500;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: 'Caveat', cursive;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+
+
+.grid-texto{
+    font-size: 25px;
+    color: #F0A500;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    display: grid;
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    box-shadow: black;
+    background-color: rgba(0, 255, 255, 0);
+    -webkit-text-stroke: 2px
+}
+
+.imagen7{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.imagen8{
+    display: grid;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.imagen9{
+    display: grid;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}

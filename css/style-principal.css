@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F8F9D7;
+    color: black;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    padding-top: 60px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #F0A500;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin-top: 70px;
+}
+
+
+.main {
+    background-color: #F8F9D7;
+}
+
+.section-principal {
+    display: flex;
+    background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+    width: 100%;
+    height: 900px;
+    background-position-y: 63%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+h1 {
+    font-size: 90px;
+    color: #F0A500;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: 'Caveat', cursive;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+h2 {
+    font-size: 38px;
+    color: #F0A500;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: 'Caveat', cursive;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+
+
+.grid-texto {
+    font-size: 25px;
+    color: #F0A500;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    display: grid;
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    box-shadow: black;
+    background-color: rgba(0, 255, 255, 0);
+    -webkit-text-stroke: 2px
+}
+
+.imagen7 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.imagen8 {
+    display: grid;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.imagen9 {
+    display: grid;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+
+.section-cocina {
+    background-color: white;
+    background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position-y: 63%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+}
+
+.section-cocina h1 {
+    font-size: 45px;
+    color: #F0A500;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.video-cocina {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.section-menu {
+    background-color: white;
+    background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position-y: 63%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+}
+
+.section-menu h1 {
+    font-size: 45px;
+    color: #F0A500;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.section-menu h2 {
+    font-size: 45px;
+    color: #F0A500;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.menu-hamburguesas {
+    display: flex;
+    background-color: #ffffff00;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.card{
+    display: flex;
+    background-color: #ffffff00;
+    justify-content: space-evenly;
+}
+
+
+.donde-estamos {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.fotos-ubicacion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto-ubicacion {
+    display: flex;
+    font-size: 45px;
+    color: #F0A500;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    z-index: 2;
+}
+
+.contactanos-chat {
+    background-color: #F0A500;
+    position: absolute;
+    font-size: 40px;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.section-contacto {
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+footer {
+    background-color: bisque;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .navbar {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        padding-top: 60px;
+    }
+
+    .section-principal h2 {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-size: 30px;
+        margin-top: 73px;
+    }
+
+    .video-cocina {
+        display: flex;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .section-principal h1 {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-size: 60px;
+        margin-top: 73px;
+        margin-left: 40px;
+    }
+
+    .section-principal h2 {
+        display: flex;
+        text-align: left;
+        gap: 20px;
+        font-size: 30px;
+        margin-top: 100px;
+        margin-left: -250px;
+    }
+
+    .grid-texto {
+        display: flex;
+        text-align: left;
+        gap: 2px;
+        font-size: 25px;
+        margin-top: 170px;
+        margin-left: 20px;
+    }
+
+
+    .logos {
+        display: none;
+    }
+
+    .imagen7,
+    .imagen8,
+    .imagen9 {
+        display: none;
+    }
+
+    .video-cocina {
+        width: 700px;
+    }
+}
+
+@media (max-width:320px) {
+    .navbar {
+        display: flex;
+        list-style: none;
+        padding-top: 50px;
+        display: none;
+
+        /* FALTA HACER MENU HAMBURGESA */
+    }
+
+    .section-principal h1 {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+
+    .section-principal h2 {
+        display: flex;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: -100px;
+    }
+
+    .grid-texto {
+        display: flex;
+        text-align: center;
+        gap: 2px;
+        font-size: 15px;
+        margin-top: 100px;
+        margin-left: 120px;
+    }
+
+
+    .logos {
+        display: none;
+    }
+
+    .imagen7,
+    .imagen8,
+    .imagen9 {
+        display: none;
+    }
+
+    .section-principal {
+        background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+        width: 320px;
+        height: 700px;
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .video-cocina {
+        height: 40px;
+        width: 40px;
+        margin-left: -135px;
+    }
+}

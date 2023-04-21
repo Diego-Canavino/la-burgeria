@@ -1,0 +1,68 @@
+@media (max-width:320px) {
+    .navbar {
+        display: flex;
+        list-style: none;
+        padding-top: 50px;
+        display: none;
+
+        /* FALTA HACER MENU HAMBURGESA */
+    }
+
+    .section-principal h1 {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+
+    .section-principal h2 {
+        display: flex;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: -100px;
+    }
+
+    .grid-texto {
+        display: flex;
+        text-align: center;
+        gap: 2px;
+        font-size: 18px;
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+
+
+    .logos {
+        display: none;
+    }
+
+    .imagen7,
+    .imagen8,
+    .imagen9 {
+        display: none;
+    }
+
+    .section-principal {
+        background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+        width: 320px;
+        height: 700px;
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .video-cocina {
+        height: 40px;
+        width: 40px;
+        margin-left: -135px;
+    }
+
+    .donde-estamos iframe{
+        height: 400px;
+        width: 300px;
+        z-index: 1;
+    }
+}
