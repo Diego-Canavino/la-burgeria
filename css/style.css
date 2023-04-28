@@ -109,7 +109,7 @@ h2 {
   grid-row-start: 5;
   grid-row-end: 6; }
 
-.section-cocina {
+.div-cocina {
   background-color: white;
   background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
   width: 100%;
@@ -120,7 +120,7 @@ h2 {
   background-repeat: no-repeat;
   font-family: 'Caveat', cursive; }
 
-.section-cocina h1 {
+.div-cocina h1 {
   font-size: 45px;
   color: #F0A500;
   text-align: center;
@@ -133,7 +133,7 @@ h2 {
   transform: translate(-50%, -50%);
   z-index: 2; }
 
-.section-menu {
+.div-menu {
   display: flex;
   background-color: white;
   background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
@@ -145,13 +145,13 @@ h2 {
   background-repeat: no-repeat;
   font-family: 'Caveat', cursive; }
 
-.section-menu h1 {
+.div-menu h1 {
   font-size: 45px;
   color: #F0A500;
   text-align: center;
   font-family: 'Caveat', cursive; }
 
-.section-menu h2 {
+.div-menu h2 {
   font-size: 45px;
   color: #F0A500;
   text-align: center;
@@ -159,16 +159,73 @@ h2 {
   margin-top: 100px; }
 
 .menu-hamburguesas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  background-color: #ffffff00;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center; }
 
 .card {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  overflow: hidden; }
+
+.card img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover; }
+
+.card div {
+  padding: 20px;
   display: flex;
-  background-color: #ffffff00;
-  justify-content: space-around;
-  align-items: center; }
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+  text-align: center; }
+
+.card h3 {
+  margin: 0;
+  font-size: 1.5rem; }
+
+.card p {
+  margin: 0;
+  font-size: 1rem; }
+
+.card button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer; }
+
+.card button a {
+  color: #fff;
+  text-decoration: none; }
+
+.card button:hover {
+  background-color: #f1b900; }
+
+.div-principal {
+  display: flex;
+  background-color: white;
+  background-image: url(https://i.blogs.es/f1b4a6/hamburguesas-parrilla/1366_2000.jpg);
+  width: 100%;
+  height: 900px;
+  background-position-y: 63%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Caveat', cursive; }
 
 .donde-estamos {
   position: absolute;
@@ -186,7 +243,7 @@ h2 {
   transform: translate(-50%, -50%);
   z-index: 2; }
 
-.section-contacto {
+.div-contacto {
   position: absolute;
   top: 70%;
   left: 27%;
@@ -210,6 +267,31 @@ h2 {
   .video-cocina {
     display: flex;
     margin-top: 100px; }
+  .menu-hamburguesas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 300px; }
+  .card {
+    width: 100%;
+    max-width: 180px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden; }
+  .card img {
+    width: 100%;
+    height: auto; }
+  .card div {
+    padding: 10px;
+    box-sizing: border-box; }
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0; }
+  .card p {
+    font-size: 1rem;
+    margin: 0 0 10px; }
+  .card button {
+    width: 100%; }
   .donde-estamos {
     margin-top: 200px; }
   .donde-estamos iframe {
@@ -252,6 +334,33 @@ h2 {
     display: none; }
   .video-cocina {
     width: 700px; }
+  .div-menu {
+    height: 1300px; }
+  .menu-hamburguesas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 500px; }
+  .card {
+    width: 100%;
+    max-width: 180px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden; }
+  .card img {
+    width: 100%;
+    height: auto; }
+  .card div {
+    padding: 10px;
+    box-sizing: border-box; }
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0; }
+  .card p {
+    font-size: 1rem;
+    margin: 0 0 10px; }
+  .card button {
+    width: 100%; }
   .donde-estamos iframe {
     height: 400px;
     width: 700px;
@@ -301,6 +410,35 @@ h2 {
     height: 40px;
     width: 40px;
     margin-left: -135px; }
+  .div-menu {
+    height: 1500px; }
+  .div-menu h2 {
+    margin-left: -70px; }
+  .menu-hamburguesas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 900px; }
+  .card {
+    width: 100%;
+    max-width: 180px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden; }
+  .card img {
+    width: 100%;
+    height: auto; }
+  .card div {
+    padding: 10px;
+    box-sizing: border-box; }
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0; }
+  .card p {
+    font-size: 1rem;
+    margin: 0 0 10px; }
+  .card button {
+    width: 100%; }
   .donde-estamos iframe {
     height: 400px;
     width: 300px;

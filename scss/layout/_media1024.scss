@@ -22,6 +22,40 @@
         margin-top: 100px;
     }
 
+    .menu-hamburguesas {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 300px;
+    }
+    .card {
+        width: 100%;
+        max-width: 180px;
+        margin: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .card div {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .card h3 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+    .card p {
+        font-size: 1rem;
+        margin: 0 0 10px;
+    }
+    .card button {
+        width: 100%;
+    }
+
+
     .donde-estamos {
         margin-top: 200px;
     }
