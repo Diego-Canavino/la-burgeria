@@ -60,50 +60,75 @@
         margin-left: -135px;
     }
 
-    .div-menu{
+    .div-menu {
         height: 1500px;
     }
 
-    .div-menu h2{
+    .div-menu h2 {
         margin-left: -70px;
     }
-    
-        .menu-hamburguesas {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-top: 900px;
-        }
-        .card {
-            width: 100%;
-            max-width: 180px;
-            margin: 10px;
-            box-sizing: border-box;
-            overflow: hidden;
-        }
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-        .card div {
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        .card h3 {
-            font-size: 1.2rem;
-            margin: 10px 0;
-        }
-        .card p {
-            font-size: 1rem;
-            margin: 0 0 10px;
-        }
-        .card button {
-            width: 100%;
-        }
-    
-    .donde-estamos iframe{
+
+    .menu-hamburguesas {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 900px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 180px;
+        margin: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card div {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 1rem;
+        margin: 0 0 10px;
+    }
+
+    .card button {
+        width: 100%;
+    }
+
+    .donde-estamos iframe {
         height: 400px;
         width: 300px;
         z-index: 1;
     }
+}
+
+.div-contacto {
+    margin-left: 70px;
+}
+
+.contactanos-chat {
+    margin-left: -50px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input,
+fieldset textarea {
+    width: 100%;
+    font-size: 0.5em;
 }

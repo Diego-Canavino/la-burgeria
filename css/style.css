@@ -234,6 +234,10 @@ h2 {
   transform: translate(-50%, -50%);
   z-index: 2; }
 
+.donde-estamos iframe {
+  height: 700px;
+  width: 900px; }
+
 .contactanos-chat {
   background-color: #F0A500;
   position: absolute;
@@ -245,7 +249,7 @@ h2 {
 
 .div-contacto {
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 27%;
   transform: translate(-50%, -50%);
   z-index: 2; }
@@ -364,7 +368,12 @@ h2 {
   .donde-estamos iframe {
     height: 400px;
     width: 700px;
-    z-index: 1; } }
+    z-index: 1; }
+  .div-contacto {
+    margin-top: 100px; }
+  .contactanos-chat {
+    margin-top: 100px;
+    margin-left: 60px; } }
 
 @media (max-width: 320px) {
   .navbar {
@@ -443,3 +452,18 @@ h2 {
     height: 400px;
     width: 300px;
     z-index: 1; } }
+
+.div-contacto {
+  margin-left: 70px; }
+
+.contactanos-chat {
+  margin-left: -50px; }
+
+fieldset {
+  display: flex;
+  flex-direction: column; }
+
+fieldset input,
+fieldset textarea {
+  width: 100%;
+  font-size: 0.5em; }
