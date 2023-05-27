@@ -3,9 +3,8 @@
         display: flex;
         list-style: none;
         padding-top: 50px;
-        display: none;
-
-        /* FALTA HACER MENU HAMBURGESA */
+        flex-wrap: wrap;
+        // display: none;
     }
 
     .section-principal h1 {
@@ -108,18 +107,20 @@
     }
 
     .donde-estamos iframe {
-        height: 400px;
+        margin-bottom: -500px;
+        height: 500px;
         width: 300px;
-        z-index: 1;
     }
 }
 
 .div-contacto {
     margin-left: 70px;
+    height: 150px;
 }
 
 .contactanos-chat {
     margin-left: -50px;
+    height: 150px;
 }
 
 fieldset {
