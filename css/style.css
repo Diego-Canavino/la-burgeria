@@ -311,6 +311,8 @@ h2 {
     list-style: none;
     gap: 20px;
     padding-top: 60px; }
+  .section-principal {
+    height: 900px; }
   .section-principal h2 {
     display: flex;
     text-align: center;
